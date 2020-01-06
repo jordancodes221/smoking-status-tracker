@@ -25,6 +25,7 @@ smokingStatus_Option1.deselect()
 smokingStatus_Option2.deselect()
 
 updateDatabase_button = Button(master, text = "Update!")
+viewStatistics_button = Button(master, text = "View Statistics")
 
 header.grid(row = 0, column = 0)
 firstName_label.grid(row = 1, column = 0)
@@ -37,6 +38,7 @@ smokingStatus_label.grid(row = 4, column = 0)
 smokingStatus_Option1.grid(row = 4, column = 1)
 smokingStatus_Option2.grid(row = 4, column = 2)
 updateDatabase_button.grid(row = 5, column = 1)
+viewStatistics_button.grid(row = 6, column = 1)
 
 master.grid_columnconfigure((0,2), weight = 1) # keeps columns centered in full screen
 
