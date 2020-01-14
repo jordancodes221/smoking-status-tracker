@@ -4,7 +4,7 @@ When I worked for a family health team, there was an initiative to update every 
 While the original project relied on the electronic medical records, this new project allows a hypothetical healthcare provider to manually enter each patient's smoking status and view the statistics on the data they entered:
 
 ![](images/trackingapp.png)
-Note that there were many patients who shared the same name as one of their parents (who were also patients!), so the birth year is used to distinguish between these two patients with the same name.
+
 
 The user is notified when they successfully store a new patient's information:
 
