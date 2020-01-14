@@ -16,7 +16,7 @@ They are also alerted when they try to store the same patient twice and are enco
 ![](images/PatientAlreadyExistsError.png)
 
 
-The user is notified when they successfully update an existing patient's information.
+The user is notified when they successfully update an existing patient's information. Below, a patient is updated from non-smoker to smoker:
 
 ![](images/UpdateSuccessful.png)
 
