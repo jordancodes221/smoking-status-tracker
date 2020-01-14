@@ -6,7 +6,7 @@ While the original project relied on the electronic medical records, this new pr
 ![](images/trackingapp.png)
 
 
-*Note: Many patients share the same name as one of their parents (who is also a patient), so the birth year is used to distinguish between them
+*Note: Many patients share the same name as one of their parents (who is also a patient), so the birth year is used to distinguish between them.
 
 The user is notified when they successfully store a new patient's information:
 
@@ -18,7 +18,7 @@ They are also alerted when they try to add a duplicate patient:
 ![](images/PatientAlreadyExistsError.png)
 
 
-The user is notified when they successfully update an existing patient's information. Below, a patient's smoking status is updated from non-smoker to smoker:
+The user is notified when they successfully update an existing patient's information. Below, John Smith's smoking status is updated from 'non-smoker' to 'smoker':
 
 ![](images/UpdateSuccessful.png)
 
@@ -29,4 +29,5 @@ There is user input handling. The first and last name must be all letters (and c
 
 At any time, the user can view the results:
 
+![](images/ViewStats.png)
 
