@@ -75,7 +75,7 @@ def viewStats():
             nonsmokers += 1
     total_patients = len(patients)
     smokers_message = "{} of your {} patients are smokers, which is {}%".format(smokers, total_patients, round(smokers*100/total_patients, 2))
-    nonsmokers_message = "{} of your {} patients are smokers, which is {}%".format(nonsmokers, total_patients, round(nonsmokers*100/total_patients, 2))
+    nonsmokers_message = "{} of your {} patients are non-smokers, which is {}%".format(nonsmokers, total_patients, round(nonsmokers*100/total_patients, 2))
     popup(smokers_message + "\n\n" + nonsmokers_message)
 
 master.title("Smoking Status Tracker")
