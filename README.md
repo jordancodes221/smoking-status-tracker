@@ -6,6 +6,8 @@ While the original project relied on the electronic medical records, this new pr
 ![](images/trackingapp.png)
 
 
+*Note: Many patients share the same name as one of their parents (who is also a patient), so the birth year is used to distinguish between them
+
 The user is notified when they successfully store a new patient's information:
 
 ![](images/NewPatientCreated.png)
@@ -20,6 +22,11 @@ The user is notified when they successfully update an existing patient's informa
 
 ![](images/UpdateSuccessful.png)
 
-There is user input handling. The first and last name must be all letters. The birth year must be all numbers and must be exactly 4 digits long. If any of these conditions are not met, an error message is shown. For example:
+There is user input handling. The first and last name must be all letters (and cannot be left empty). The birth year must be all numbers and must be exactly 4 digits long. If any of these conditions are not met, an error message is shown. For example:
 
 ![](images/InputError.png)
+
+
+At any time, the user can view the results:
+
+
